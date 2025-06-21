@@ -83,6 +83,7 @@ nav .nav_derecho .sesion a:last-child:hover {
 }
 nav .nav_derecho .sesion a:first-child {
   font-family: "Nunito Sans";
+  color: #264065;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -140,6 +141,7 @@ nav .nav_derecho .sesion a:first-child:hover{
   display: flex;
   align-items: center;
   margin-left: 48px;
+  color: #264065;
 }
 .principal div a:last-child:hover{
   font-weight: 1000;
