@@ -1,0 +1,62 @@
+nav{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    img{
+        max-width: 212px;
+    }
+    .navegador ul{
+        display: flex;
+        margin-left: 164px;
+        gap: 56px;
+        a{
+            font-family: $popin;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            color: $azul;
+        }
+        .more{
+            position: relative;
+            svg{
+                position: absolute;
+                right: -23px;
+                top: 3px;
+            }
+        }
+    }
+    .nav_derecho{
+        display: flex;
+        margin-left: auto;
+        align-items: center;
+        gap: 74px;
+        .iconos{
+            display: flex;
+            align-items: center;
+            gap: 32px;
+        }
+        .sesion{
+            display: flex;
+            align-items: center;
+            gap: 32px;
+            a:last-child{
+                font-family: $popin;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                @include btn;
+                width: 149px;
+                height: 60px;
+            }
+            a:first-child{
+                font-family: 'Nunito Sans';
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 40px; 
+                text-decoration-line: underline;
+            }
+        }
+    }
+}

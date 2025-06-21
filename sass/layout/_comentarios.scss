@@ -1,0 +1,30 @@
+.comentarios{
+    div.opinion1{
+        @include cuadro;
+        position: absolute;
+        right: -110px;
+        top: 440px;
+    }
+    div.opinion2{
+        @include cuadro;
+        position: absolute;
+        right: 36px;
+        top: 745px;
+    }
+    .opinion{
+        color: $negro;
+        font-family: $popin;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .nombre{
+        font-family: $popin;
+        color: $azul;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}

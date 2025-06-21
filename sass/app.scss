@@ -1,0 +1,34 @@
+@import './abstracts/abstracts';
+@import './vendors/vendors';
+@import './base/base';
+@import './components/components';
+@import './layout/layout';
+@import './pages/pages';
+@import './themes/themes';
+@import 'settings';
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    max-width: 1920px;
+    &::before{
+        content: '';
+        background-color: $fondo;
+        width: 33%;
+        position: absolute;
+        height: 820px;
+        top: 0;
+        right: 0px;
+        z-index: -2;
+    }
+}
+.pagina{
+    width: 1600px;
+    position: relative;
+    background-image: url(../img/beauty-woman-skin-care-beautiful-female-hand-touch-8B5MWG9\ 1.png);
+    background-repeat: no-repeat;
+    background-position: 200px 0px;
+    height: 1080px;
+}

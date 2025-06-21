@@ -1,0 +1,35 @@
+.principal{
+    width: 50.56%;
+    margin-top: 80px;
+    h1{
+        font-family: $popin;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        color: $azul;
+        line-height: 80px;
+    }
+    p{
+        margin-top: 32px;
+        font-family: $popin;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px;
+        color: $gris;
+        width: 96.94%;
+    }
+    div{
+        display: flex;
+        margin-top: 56px;
+        a:first-child{
+            @include btn;
+            width: 180px;
+        }
+        a:last-child{
+            display: flex;
+            align-items: center;
+            margin-left: 48px;
+        }
+    }
+}

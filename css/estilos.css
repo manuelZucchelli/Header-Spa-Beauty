@@ -1,0 +1,258 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Poppins:wght@400;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+nav {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+}
+nav img {
+  max-width: 212px;
+}
+nav .navegador ul {
+  display: flex;
+  margin-left: 164px;
+  gap: 56px;
+}
+nav .navegador ul a {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  color: #264065;
+}
+nav .navegador ul a:hover{
+  font-weight: 500;
+}
+nav .navegador ul .more {
+  position: relative;
+}
+nav .navegador ul .more svg {
+  position: absolute;
+  right: -23px;
+  top: 3px;
+}
+nav .nav_derecho {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  gap: 74px;
+}
+nav .nav_derecho .iconos{
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+nav .nav_derecho .iconos a img:hover {
+  width: 2.2rem;
+  height: 2.2rem;
+}
+nav .nav_derecho .sesion {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+nav .nav_derecho .sesion a:last-child {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  display: inline-flex;
+  height: 60px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: #264065;
+  border-radius: 32px;
+  color: white;
+  width: 149px;
+  height: 60px;
+}
+nav .nav_derecho .sesion a:last-child:hover {
+  background-color: white;
+  color: #264065;
+}
+nav .nav_derecho .sesion a:first-child {
+  font-family: "Nunito Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  text-decoration-line: underline;
+}
+nav .nav_derecho .sesion a:first-child:hover{
+  font-weight: 1000;
+} 
+
+
+.principal {
+  width: 50.56%;
+  margin-top: 80px;
+}
+.principal h1 {
+  font-family: "Poppins";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  color: #264065;
+  line-height: 80px;
+}
+.principal p {
+  margin-top: 32px;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  color: #909090;
+  width: 96.94%;
+}
+.principal div {
+  display: flex;
+  margin-top: 56px;
+}
+.principal div a:first-child {
+  display: inline-flex;
+  height: 60px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: #264065;
+  border-radius: 32px;
+  color: white;
+  width: 180px;
+}
+.principal div a:first-child:hover{
+  background-color: rgb(169, 210, 209);
+  color: #264065;
+}
+.principal div a:last-child {
+  display: flex;
+  align-items: center;
+  margin-left: 48px;
+}
+.principal div a:last-child:hover{
+  font-weight: 1000;
+} 
+
+.datos {
+  display: flex;
+  padding: 32px;
+  margin-top: 90px;
+  gap: 72px;
+  justify-content: center;
+  width: 40.19%;
+}
+.datos article {
+  text-align: center;
+}
+.datos h3 {
+  font-family: "Poppins";
+  margin-top: 24px;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #264065;
+}
+.datos p {
+  margin-top: 16px;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #909090;
+}
+
+.comentarios div.opinion1 {
+  display: inline-flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(8px);
+  width: 405px;
+  position: absolute;
+  right: -110px;
+  top: 440px;
+}
+.comentarios div.opinion2 {
+  display: inline-flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(8px);
+  width: 405px;
+  position: absolute;
+  right: 36px;
+  top: 745px;
+}
+.comentarios .opinion {
+  color: #070D15;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.comentarios .nombre {
+  font-family: "Poppins";
+  color: #264065;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+html * {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+  max-width: 1920px;
+}
+body::before {
+  content: "";
+  background-color: #A9D6CB;
+  width: 33%;
+  position: absolute;
+  height: 820px;
+  top: 0;
+  right: 0px;
+  z-index: -2;
+}
+
+.pagina {
+  width: 1600px;
+  position: relative;
+  background-image: url(../img/beauty-woman-skin-care-beautiful-female-hand-touch-8B5MWG9\ 1.png);
+  background-repeat: no-repeat;
+  background-position: 200px 0px;
+  height: 1080px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
